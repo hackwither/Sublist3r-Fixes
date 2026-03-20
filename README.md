@@ -30,14 +30,14 @@ python sublist3r.py -d google.com
 ### 3. Batch Scanning (The `scan.sh` Method)
 Create a file (e.g., `targets.txt`) with one domain per line, then run:
 ```bash
-chmod +x scan.sh
-./scan.sh targets.txt
+chmod +x multi_domain_scan.sh
+./multi_domain_scan.sh targets.txt
 ```
 *Results are automatically saved to the `outputs/` directory.*
 
 ## Project Structure
 * `sublist3r.py` - The core engine (Fixed & Optimized).
-* `scan.sh` - Automation script for multi-domain targets.
+* `multi_domain_scan.sh` - Automation script for multi-domain targets.
 * `requirements.txt` - Minimal dependencies for Python 3.14.
 * `LICENSE` - GNU General Public License v2.0.
 
